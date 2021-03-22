@@ -1,0 +1,74 @@
+[
+  {
+    "ParameterKey": "InfrastructureName", 
+    "ParameterValue": "infrastructurename"
+  },
+  {
+    "ParameterKey": "RhcosAmi", 
+    "ParameterValue": "rhcosami"
+  },
+  {
+    "ParameterKey": "AutoRegisterDNS", 
+    "ParameterValue": "yes" 
+  },
+  {
+    "ParameterKey": "PrivateHostedZoneId", 
+    "ParameterValue": "privatezoneid" 
+  },
+  {
+    "ParameterKey": "PrivateHostedZoneName", 
+    "ParameterValue": "privatezonename"
+  },
+  {
+    "ParameterKey": "Master0Subnet", 
+    "ParameterValue": "master0subnet"
+  },
+  {
+    "ParameterKey": "Master1Subnet", 
+    "ParameterValue": "master1subnet"
+  },
+  {
+    "ParameterKey": "Master2Subnet", 
+    "ParameterValue": "master2subnet"
+  },
+  {
+    "ParameterKey": "MasterSecurityGroupId", 
+    "ParameterValue": "mastersecuritygroupid"
+  },
+  {
+    "ParameterKey": "IgnitionLocation", 
+    "ParameterValue": "masterignitionlocation"
+  },
+  {
+    "ParameterKey": "CertificateAuthorities", 
+    "ParameterValue": "mastercert"
+  },
+  {
+    "ParameterKey": "MasterInstanceProfileName", 
+    "ParameterValue": "masterinstanceprofile" 
+  },
+  {
+    "ParameterKey": "MasterInstanceType", 
+    "ParameterValue": "masterinstancetype"
+  },
+  {
+    "ParameterKey": "AutoRegisterELB", 
+    "ParameterValue": "yes" 
+  },
+  {
+    "ParameterKey": "RegisterNlbIpTargetsLambdaArn", 
+    "ParameterValue": "registernlbiptargetslambdaarn" 
+  },
+  {
+    "ParameterKey": "ExternalApiTargetGroupArn", 
+    "ParameterValue": "externalapitargetgrouparn"
+  },
+  {
+    "ParameterKey": "InternalApiTargetGroupArn", 
+    "ParameterValue": "internalapitargetgrouparn" 
+  },
+  {
+    "ParameterKey": "InternalServiceTargetGroupArn", 
+    "ParameterValue": "internalservicetargetgrouparn"
+  }
+]
